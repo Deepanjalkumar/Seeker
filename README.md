@@ -32,3 +32,8 @@ Sources include :
 
 15 - VirusTotal
 
+Installation :
+ 
+             git clone https://github.com/operationfalcon/Seeker.git
+
+             cd seeker.git
