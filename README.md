@@ -39,3 +39,9 @@ Installation :
              cd seeker
 
              pip install -r requirements.txt
+
+Usage :
+  
+             python3 seeker.py -d <domain name>
+
+             python3 seeker.py -d <domain name> -p <proxy>
