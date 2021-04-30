@@ -8,4 +8,27 @@ Sources include :
 
 3 - Binary edge
 
+4 - Certspotter
+
+5 - Chaos
+
+6 - Crtsh
+
+7 - ReconDev
+
+8 - Security Trails
+
+9 - Shodan
+
+10 - Sonar
+
+11 - Spyse
+
+12 - Sublist3r
+
+13 - Threatcrowd
+
+14 - Threatminer
+
+15 - VirusTotal
 
