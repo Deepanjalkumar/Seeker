@@ -2,8 +2,10 @@ SEEKER - Seeker is an vertical subdomain enumeration tool which collect subdomai
 
 Sources include :        
 
- 1 - Alien vault
+1 - Alien vault
                        
- 2-  Anubis
+2 - Anubis
+
+3 - Binary edge
 
 
