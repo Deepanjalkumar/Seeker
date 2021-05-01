@@ -15,7 +15,7 @@ def recondev_domain(domain):
                         file.writelines("%s\n" % data[i]["rawDomains"][j])
                         print(colored("[Recon Dev]"+" "+data[i]["rawDomains"][j], "blue"))
                 except Exception as e:
-                    print("Check your api")
+                    pass
     except Exception as e:
         print("Cannot run source recondev")
 
@@ -37,6 +37,6 @@ def recondev_domain_proxy(domain, proxy):
                         file.writelines("%s\n" % data[i]["rawDomains"][j])
                         print(colored("[Recon Dev]"+" "+data[i]["rawDomains"][j], "blue"))
                 except Exception as e:
-                    print("Check your api")
+                    pass
     except Exception as e:
         print("Cannot run source recondev")
