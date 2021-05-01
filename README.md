@@ -84,4 +84,4 @@ API KEYS:
                    
                    Out of request wait for sometime - This might mean that source is getting too much request
                    
-                   Check your api- This might mean that your api is out of request count need can't use the same api key
+                   Check your api- This might mean that your api is out of request count, can't use the same api key anymore
