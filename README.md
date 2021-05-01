@@ -36,7 +36,7 @@ Installation :
  
              git clone https://github.com/operationfalcon/Seeker.git
 
-             cd seeker
+             cd Seeker
 
              pip3 install -r requirements.txt
 
