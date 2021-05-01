@@ -11,7 +11,7 @@ def threatminer_domain(domain):
                     file.writelines("%s\n" % data[i])
                     print(colored("[Threatminer]"+" "+data[i], "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Out of request wait for some time")
     except Exception as e:
         print("Cannot run source threatminer")
 
@@ -29,6 +29,6 @@ def threatminer_domain_proxy(domain, proxy):
                     file.writelines("%s\n" % data[i])
                     print(colored("[Threatminer]"+" "+data[i], "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Out of request wait for some time")
     except Exception as e:
         print("Cannot run source threatminer")
