@@ -11,7 +11,7 @@ def certsh_domain(domain):
                     file.writelines("%s\n" % data[i]["common_name"])
                     print(colored("[Certsh]"+" "+data[i]["common_name"], "blue"))
                 except Exception as e:
-                    print("Check your api")
+                    print("Out of request wait for some time")
     except Exception as e:
         print("Cannot run source certsh")
 
@@ -31,6 +31,6 @@ def certsh_domain_proxy(domain, proxy):
                     file.writelines("%s\n" % data[i]["common_name"])
                     print(colored("[Certsh]"+" "+data[i]["common_name"], "blue"))
                 except Exception as e:
-                    print("Check your api")
+                    print("Out of request wait for some time")
     except Exception as e:
         print("Cannot run source certsh")
