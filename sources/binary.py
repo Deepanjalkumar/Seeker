@@ -14,7 +14,7 @@ def binary_domain(domain):
                     file.writelines("%s\n" % data[i])
                     print(colored("[Binary edge]"+" "+data[i]+" ", "blue"))
                 except Exception as e:
-                    print("Check your api")
+                    pass
     except Exception as e:
         print("Cannot run source binary edge")
 
@@ -35,7 +35,7 @@ def binary_domain_proxy(domain, proxy):
                     file.writelines("%s\n" % data[i])
                     print(colored("[Binary edge]"+" "+data[i]+" ", "blue"))
                 except Exception as e:
-                    print("Check your api")
+                    pass
     except Exception as e:
         print("Cannot run source binary edge")
 
