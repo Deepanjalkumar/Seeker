@@ -82,6 +82,6 @@ API KEYS:
   
                    Cannot run source - This means that no api key was given in config.py file inside config directory
                    
-                   Out of request wait for sometime - This maybe means that source is getting too much request
+                   Out of request wait for sometime - This might mean that source is getting too much request
                    
-                   Check your api- This might means that your api is out of request count need can't use the same api key
+                   Check your api- This might mean that your api is out of request count need can't use the same api key
