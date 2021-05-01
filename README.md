@@ -78,4 +78,10 @@ API KEYS:
   
   [Spyse](https://spyse.com/)
   
+  Troubleshooting:
   
+                   Cannot run source - This means that no api key was given in config.py file inside config directory
+                   
+                   Out of request wait for sometime - This maybe means that source is getting too much request
+                   
+                   Check your api- This might means that your api is out of request count need can't use the same api key
