@@ -11,7 +11,7 @@ def threatcrowd_domain(domain):
                     file.writelines("%s\n" % data[i])
                     print(colored("[Threatcrowd]"+" "+data[i], "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Out of request wait for some time")
     except Exception as e:
         print("Cannot run source threatcrowd")
 
@@ -31,6 +31,6 @@ def threatcrowd_domain_proxy(domain, proxy):
                     file.writelines("%s\n" % data[i])
                     print(colored("[Threatcrowd]"+" "+data[i], "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Out of request wait for some time")
     except Exception as e:
         print("Cannot run source threatcrowd")
