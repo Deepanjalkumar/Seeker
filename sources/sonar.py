@@ -10,7 +10,7 @@ def sonar_domain(domain):
                     file.writelines("%s\n" % data[i])
                     print(colored("[Project Sonar]"+" "+data[i], "blue"))
                 except Exception as e:
-                    print("Out of request wait for some time")
+                    pass
     except Exception as e:
         print("Cannot run source Project Sonar")
 
@@ -30,6 +30,6 @@ def sonar_domain_proxy(domain, proxy):
                     file.writelines("%s\n" % data[i])
                     print(colored("[Project Sonar]"+" "+data[i], "blue"))
                 except Exception as e:
-                    print("Out of request wait for some time")
+                    pass
     except Exception as e:
         print("Cannot run source Project Sonar")
