@@ -70,4 +70,6 @@ API KEYS:
   
   [Recon Dev](https://recon.dev/)
   
+  [Virus Total](https://www.virustotal.com/gui/)
+  
   
