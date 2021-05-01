@@ -84,6 +84,6 @@ API KEYS:
   
                    Cannot run source - This means that no api key was given in config.py file inside config directory
                    
-                   Out of request wait for sometime - This might mean that source is getting too much request
+                   If you run seeker against a domain but can't see sources along with subdomain name that means it is not into 
                    
-                   Check your api- This might mean that your api is out of request count, can't use the same api key anymore
+                   that particular source.
