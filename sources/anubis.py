@@ -10,7 +10,7 @@ def anubis_domain(domain):
                     file.writelines("%s\n" % data[i])
                     print(colored("[Anubis]"+" "+data[i], "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Some error")
     except Exception as e:
         print("Cannot run source anubis")
 
@@ -30,6 +30,6 @@ def anubis_domain_proxy(domain, proxy):
                     file.writelines("%s\n" % data[i])
                     print(colored("[Anubis]"+" "+data[i], "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Some error")
     except Exception as e:
         print("Cannot run source anubis")
