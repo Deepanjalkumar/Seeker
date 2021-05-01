@@ -74,4 +74,6 @@ API KEYS:
   
   [Censys](https://censys.io/)
   
+  [Certspotter](https://sslmate.com/certspotter/api/)
+  
   
