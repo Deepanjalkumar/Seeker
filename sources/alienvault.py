@@ -10,7 +10,7 @@ def alienvault_domain(domain):
                     file.writelines("%s\n" % data[i]["hostname"])
                     print(colored("[Alien Vault]"+" "+data[i]["hostname"], "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Check your api")
     except Exception as e:
         print("Cannot run source alien vault")
 
@@ -31,6 +31,6 @@ def alienvault_domain_proxy(domain, proxy):
                     file.writelines("%s\n" % data[i]["hostname"])
                     print(colored("[Alien Vault]"+" "+data[i]["hostname"], "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Check your api")
     except Exception as e:
         print("Cannot run source alien vault")
