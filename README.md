@@ -68,4 +68,6 @@ API KEYS:
   
   [Security Trails](https://securitytrails.com/)
   
+  [Recon Dev](https://recon.dev/)
+  
   
