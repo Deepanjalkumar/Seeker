@@ -45,3 +45,13 @@ Usage :
              python3 seeker.py -d <domain name>
 
              python3 seeker.py -d <domain name> -p <proxy>
+             
+Output :
+
+             python3 seeker.py -d <domain name> 
+             
+             Output will be saved in current directory as result.txt
+             
+             python3 seeker.py -d <domain name> -p <proxy>
+             
+             Output will again be saved in current directory as result.txt
