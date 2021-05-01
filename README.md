@@ -55,3 +55,7 @@ Output :
              python3 seeker.py -d <domain name> -p <proxy>
              
              Output will again be saved in current working directory as result.txt
+             
+API KEYS:
+
+             [Alien Vault](https://otx.alienvault.com/)
