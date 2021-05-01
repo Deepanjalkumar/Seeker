@@ -16,7 +16,7 @@ def trails_domain(domain):
                     file.writelines("%s\n" % data[i])
                     print(colored("[Security Trails]"+" "+data[i]+"."+f"{domain}", "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Check your api")
     except Exception as e:
         print("Cannot run source security trails")
 
@@ -39,6 +39,6 @@ def trails_domain_proxy(domain, proxy):
                     file.writelines("%s\n" % data[i])
                     print(colored("[Security Trails]"+" "+data[i]+"."+f"{domain}", "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Check your api")
     except Exception as e:
         print("Cannot run source security trails")
