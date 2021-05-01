@@ -59,3 +59,13 @@ Output :
 API KEYS:
 
   [Alien Vault](https://otx.alienvault.com/)
+
+  [Shodan](https://www.shodan.io/)
+  
+  [Binary Edge](https://www.binaryedge.io/)
+  
+  [Chaos](https://chaos.projectdiscovery.io/#/)
+  
+  [Security Trails](https://securitytrails.com/)
+  
+  
