@@ -13,7 +13,7 @@ def chaos_domain(domain):
                     file.writelines("%s%s%s\n" % (data[i], ".", f"{domain}"))
                     print(colored("[Chaos]"+" "+data[i]+"."+f"{domain}", "blue"))
                 except Exception as e:
-                    print("Check your token")
+                    pass
     except Exception as e:
         print("Cannot run source chaos")
 
@@ -35,6 +35,6 @@ def chaos_domain_proxy(domain, proxy):
                     file.writelines("%s%s%s\n" % (data[i], ".", f"{domain}"))
                     print(colored("[Chaos]"+" "+data[i]+"."+f"{domain}", "blue"))
                 except Exception as e:
-                    print("Check your token")
+                    pass
     except Exception as e:
         print("Cannot run source chaos")
