@@ -13,7 +13,7 @@ def trails_domain(domain):
         with open("result.txt", "a") as file:
             for i in range(0, len(data)):
                 try:
-                    file.writelines("%s\n" % data[i])
+                    file.writelines("%s%s%s\n" % (data[i], ".", f"{domain}"))
                     print(colored("[Security Trails]"+" "+data[i]+"."+f"{domain}", "blue"))
                 except Exception as e:
                     print("Out of api request")
