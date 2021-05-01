@@ -14,9 +14,9 @@ def certspotter_domain(domain):
                             file.writelines("%s\n" % data[i]["dns_names"][j])
                             print(colored("[Certspotter]"+" "+data[i]["dns_names"][j], "blue"))
                         except Exception as e:
-                            print("Not found")
+                            pass
                 except Exception as e:
-                    print("Check your api")
+                    pass
     except Exception as e:
         print("Cannot run source certspotter")
 
@@ -37,8 +37,8 @@ def certspotter_domain_proxy(domain, proxy):
                             file.writelines("%s\n" % data[i]["dns_names"][j])
                             print(colored("[Certspotter]"+" "+data[i]["dns_names"][j], "blue"))
                         except Exception as e:
-                            print("Not found")
+                            pass
                 except Exception as e:
-                    print("Check your api")
+                    pass
     except Exception as e:
         print("Cannot run source certspotter")
