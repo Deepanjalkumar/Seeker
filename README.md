@@ -76,4 +76,6 @@ API KEYS:
   
   [Certspotter](https://sslmate.com/certspotter/api/)
   
+  [Spyse](https://spyse.com/)
+  
   
