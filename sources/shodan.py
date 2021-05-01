@@ -12,7 +12,7 @@ def shodan_domain(domain):
                     file.writelines("%s%s%s\n" % (data[i], ".", f"{domain}") )
                     print(colored("[Shodan]"+" "+data[i]+"."+f"{domain}"+" ", "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Check your api")
     except Exception as e:
         print("Cannot run source shodan")
 
@@ -31,6 +31,6 @@ def shodan_domain_proxy(domain,proxy):
                     file.writelines("%s%s%s\n" % (data[i], ".", f"{domain}"))
                     print(colored("[Shodan]"+" "+data[i]+"."+f"{domain}"+" ", "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Check your api")
     except Exception as e:
         print("Cannot run source shodan")
