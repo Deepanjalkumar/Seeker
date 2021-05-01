@@ -16,7 +16,7 @@ def certspotter_domain(domain):
                         except Exception as e:
                             print("Not found")
                 except Exception as e:
-                    print("out of api request")
+                    print("Check your api")
     except Exception as e:
         print("Cannot run source certspotter")
 
@@ -39,6 +39,6 @@ def certspotter_domain_proxy(domain, proxy):
                         except Exception as e:
                             print("Not found")
                 except Exception as e:
-                    print("out of api request")
+                    print("Check your api")
     except Exception as e:
         print("Cannot run source certspotter")
