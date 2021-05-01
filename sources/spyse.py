@@ -14,7 +14,7 @@ def spyse_domain(domain):
                     file.writelines("%s\n" % data[i]["name"])
                     print(colored("[Spyse]"+" "+data[i]['name'], "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Check your api")
     except Exception as e:
         print("Cannot run source spyse")
 
@@ -37,6 +37,6 @@ def spyse_domain_proxy(domain, proxy):
                     file.writelines("%s\n" % data[i]["name"])
                     print(colored("[Spyse]"+" "+data[i]['name'], "blue"))
                 except Exception as e:
-                    print("Out of api request")
+                    print("Check your api")
     except Exception as e:
         print("Cannot run source spyse")
